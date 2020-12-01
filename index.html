@@ -8,7 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <script src="js/lib/d3/d3.min.js" charset="utf-8"></script>
+    <script src="./js/lib/snap.svg-min.js" charset="utf-8"></script>
+
   </head>
   <body>
     <section class="page-header">
@@ -52,7 +53,18 @@
         <li>
           Here is it's <a href="https://github.com/gregv21v/Chem-Lab">Github</a> page.
         </li>
+        <li>
+          If you want to learn more about how chemistry lab works, you can go <a href="/how-chemistry-lab-works.html">here</a>
+        </li>
       </ul>
+
+      <h3>Here is a example animation of a liquid drop using Snap.svg</h3>
+      <div>
+        <svg id="example1" width="650" height="200">
+
+        </svg>
+        <button type="button" id="play">Play</button>
+      </div>
 
       <h3>Spending Tracker</h3>
       <p>
@@ -69,28 +81,62 @@
       </ul>
 
 
-      <h3>Here is a example animation with JavaScript just for fun:</h3>
-      <div id="example1">
-        <svg>
 
-        </svg>
-      </div>
 
       <script>
-        var mainSvg = d3.select("svg")
-          .attr("width", 500)
-          .attr("height", 100)
+        let snap = Snap("#example1")
 
-        var cir = mainSvg
-          .append('circle')
-            .attr("cx", 50)
-            .attr("cy", 50)
-            .attr("r", 20)
-            .style("fill", "red")
+        var drops = []
+        var shadesOfBlue = [
+          "blue",
+          "green",
+          "orange",
+          "teal"
+        ]
+        var xMax = 650
 
-        cir.transition()
-          .attr("cx", 500 - 25)
-          .delay(500)
+        // create random drops
+        for (var i = 0; i < 10; i++) {
+          let x = Math.floor(Math.random()*xMax);
+          var newDrop = snap.rect(x, 0, 15, 15)
+          newDrop.attr({
+            fill: shadesOfBlue[Math.floor(Math.random() * shadesOfBlue.length)]
+          })
+          drops.push({
+            rect: newDrop,
+            x: x
+          })
+        }
+
+        function genFunc(drop, duration) {
+          return () => {
+            drop.rect.animate({y: 180}, duration, function() {
+              drop.rect.animate({y: 185, width: 30, height: 1}, duration)
+            })
+          }
+        }
+
+
+
+        var playBtn = document.querySelector("#play")
+        playBtn.addEventListener("click", function() {
+          let duration = 1000
+          for (var drop of drops) {
+            let delay = Math.floor(Math.random() * 1000) + 100
+            drop.rect.attr({
+              x: drop.x,
+              y: 0,
+              width: 15,
+              height: 15
+            })
+            setTimeout(
+              genFunc(drop, duration),
+              delay
+            )
+
+          }
+        })
+
       </script>
 
       <footer class="site-footer">
