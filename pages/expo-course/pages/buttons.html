@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Buttons</title>
+    <link href="../lib/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/master.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Buttons</h1>
+      </div>
+
+      <div class="body">
+
+        <p>
+          There are two different types of components that are clickable: the TouchableOpacity component, and the Button
+          component. The button component is a simplified version of the TouchableOpacity component. It does not allow
+          styling. Below are examples of two similar Buttons; one uses TouchableOpacity and the other uses Button.
+        </p>
+
+        <pre>
+          <code class="language-jsx">
+&lt;TouchableOpacity
+      onPress={this.handleClickFunction}
+      style={{ backgroundColor: "#841584", flex: 1/3, padding: 20 }}>
+  &lt;Text style={{ fontSize: 40 }}>
+    X
+  &lt;/Text>
+&lt;/TouchableOpacity>
+
+&lt;Button
+  onPress={this.handleClickFunction}
+  title="X"
+  color="#841584"
+/>
+          </code>
+        </pre>
+
+        <p>
+          In your constructor you have to bind handleClickFunction to
+          this.
+        </p>
+
+        <pre>
+          <code class="language-jsx">
+constructor(props) {
+  // ...
+  this.handleClickFunction = this.handleClickFunction.bind(this)
+  // ...
+}
+          </code>
+        </pre>
+
+        <div class="tasks">
+          <ol>
+            <li>
+              <p>At the bottom of the Tic Tac Toe board render method add a button with the text of reset, and reset method for the onPress prop.</p>
+              <button type="button" class="collapsible">Solution</button>
+              <div class="content">
+                <pre>
+                  <code class="language-jsx">
+// beginning or render method
+&lt;Button
+  onPress={this.reset}
+  title="Reset"
+  color="#841584"
+  accessibilityLabel="Reset the game"
+/>
+                  </code>
+                </pre>
+              </div>
+            </li>
+
+            <li>
+              <p>Create the reset method that will reset the board.</p>
+              <button type="button" class="collapsible">Solution</button>
+              <div class="content">
+                <pre>
+                  <code class="language-jsx">
+constructor(props) {
+// ...
+  this.reset = this.reset.bind(this)
+// ...
+}
+/**
+  reset()
+  @description resets the board
+*/
+reset() {
+  this.setState({
+    // the current players turn
+    playerTurn: "X",
+    // the current status of the board
+    statusText: "Player X's Turn",
+    // used to store the Tic Tac Toe board
+    grid: [
+      ["_", "_", "_"],
+      ["_", "_", "_"],
+      ["_", "_", "_"]
+    ]
+  })
+}
+                  </code>
+                </pre>
+              </div>
+            </li>
+
+            <li>
+              <p>Make the cell class clickable by wrapping a TouchableOpacity around the text component in the render method. Set the
+              onPress prop to a handleClick prop.</p>
+              <button type="button" class="collapsible">Solution</button>
+              <div class="content">
+                <pre>
+                  <code class="language-jsx">
+&lt;TouchableOpacity
+  onPress={this.props.handleClick}
+  style={{ flex: 1/3, padding: 20 }}>
+  &lt;Text style={{ fontSize: 40 }}>
+    {this.props.value}
+  &lt;/Text>
+&lt;/TouchableOpacity>
+                  </code>
+                </pre>
+              </div>
+            </li>
+
+            <li>
+              <p>Create a function called handleClick that takes two parameters, x and y. When handleClick is called
+              it should update the cell to the symbol of the current players turn if the cell is empty.</p>
+              <button type="button" class="collapsible">Solution</button>
+              <div class="content">
+                <pre>
+                  <code class="language-jsx">
+/**
+  handleClick()
+  @description Handle what happens when a player clicks on a specific cell
+  @param x the x coordinate of the cell
+  @param y the y coordinate of the cell
+*/
+handleClick(x, y) {
+  var gridTemp = this.state.grid
+
+  if(gridTemp[y][x] === "_") {
+    gridTemp[y][x] = this.state.playerTurn
+
+    // update player turn
+    if(this.state.playerTurn === "X") {
+      this.setState({
+        playerTurn: "O",
+        statusText: "Player O's Turn"
+      })
+    } else {
+      this.setState({
+        playerTurn: "X",
+        statusText: "Player X's Turn"
+      })
+    }
+
+    this.setState({
+      grid: gridTemp
+    })
+  }
+}
+                  </code>
+                </pre>
+              </div>
+            </li>
+
+            <li>
+              <p>In the renderRow method add this.handleClick to the Cell component XML. </p>
+              <button type="button" class="collapsible">Solution</button>
+              <div class="content">
+                <pre>
+                  <code class="language-jsx">
+&lt;Cell key={x} handleClick={() => this.handleClick(x, y)} value={cell}/>
+                  </code>
+                </pre>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        <a href="./styling-components.html"><== Styling Components</a> |
+        <a href="./checking-for-winner.html"> Checking for Winner ==></a>
+      </div>
+    </div>
+    <script src="../lib/prism.js"></script>
+    <script src="../js/collapsibleDiv.js" charset="utf-8"></script>
+  </body>
+</html>

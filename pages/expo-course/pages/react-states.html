@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>States</title>
+    <link href="../lib/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../lib/codemirror.css">
+    <link rel="stylesheet" href="../css/master.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>States</h1>
+      </div>
+
+      <div class="body">
+        <p>
+          States are the class variables of the component. They dynamically update whenever the render call is called. States
+          are initialized in the constructor, and can be updated by calling this.setState anywhere.
+        </p>
+
+        <p>Example:</p>
+        <pre>
+          <code class="language-jsx">
+        // components constructors pass the props variable
+        // them, so you have to call the super class's constructor on it.
+        constructor(props) {
+          super(props)
+
+          this.state = {
+            variable1: [],
+            variable2: "",
+            //...
+          }
+        }
+
+        exampleMethod() {
+          // updates the variable1 from an empty array to
+          // an array with 2 elements
+          this.setState({
+            variable1: ["str1", "str2"]
+          })
+        }
+
+        // this render method displays the value of variable2
+        render() {
+          return (
+            &lt;Text>{this.state.variable2}&lt;/Text>
+          )
+        }
+          </code>
+        </pre>
+
+
+        <div class="tasks">
+          <ol>
+            <li>
+              <p>
+                In the Tic Tac Toe Board component, add a state variable called grid that is a 3x3 array of strings along with 2 other variables called playerTurn and statusText.
+              </p>
+
+              <button type="button" class="collapsible">Solution</button>
+              <div class="content">
+                <pre>
+                  <code class="language-jsx">
+// constructor of TicTacToeBoard
+constructor(props) {
+  super(props)
+
+  this.state = {
+    // whos players turn it is
+    playerTurn: "X",
+    // the status of the board
+    statusText: "Player X's Turn",
+    // the current state of the tic tac toe game
+    grid: [
+      ["_", "_", "_"],
+      ["_", "_", "_"],
+      ["_", "_", "_"]
+    ]
+  }
+}
+                  </code>
+                </pre>
+              </div>
+            </li>
+
+            <li>
+              <p>
+                Create render row function that renders a single row of cells
+              </p>
+
+            <button type="button" class="collapsible">Solution</button>
+            <div class="content">
+              <pre>
+                <code class="language-jsx">
+/**
+  renderRow()
+  @description renders a row of the TicTacToeBoard
+  @param row the row to render
+  @param y the y coordinate of the row to render
+*/
+renderRow(row, y) {
+  return row.map((cell, x) => {
+    return (
+      &lt;Cell key={x} value={cell}/>
+    )
+  })
+}
+
+/**
+  render()
+  @description renders the TicTacToeBoard component
+*/
+render() {
+  &lt;View>
+    &lt;Text style={{fontSize: 30}}>{this.state.statusText}&lt;/Text>
+    {
+      this.state.grid.map(
+        (row, y) => {
+          return (
+            &lt;View style={{ flex: 1, flexDirection: "row"}} key={y}>
+              {this.renderRow(row, y)}
+            &lt;/View>
+          )
+        }
+      )
+    }
+  &lt;/View>
+}
+                </code>
+              </pre>
+            </div>
+          </li>
+
+          <li>
+            <p>
+              Adjust the render function so that it renders the status text state above
+              the grid state. All the component should be within a View component. Each row
+              should be in a View component as well.
+            </p>
+
+          <button type="button" class="collapsible">Solution</button>
+          <div class="content">
+            <pre>
+              <code class="language-jsx">
+/**
+  render()
+  @description renders the TicTacToeBoard component
+*/
+render() {
+  &lt;View>
+    &lt;Text style={{fontSize: 30}}>{this.state.statusText}&lt;/Text>
+    {
+      this.state.grid.map(
+        (row, y) => {
+          return (
+            &lt;View style={{ flex: 1, flexDirection: "row"}} key={y}>
+              {this.renderRow(row, y)}
+            &lt;/View>
+          )
+        }
+      )
+    }
+  &lt;/View>
+}
+              </code>
+            </pre>
+          </div>
+        </li>
+          </ol>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        <a href="./react-props.html"><== Expo/React Props</a> |
+        <a href="./styling-components.html"> Styling Components ==></a>
+      </div>
+    </div>
+    <script src="../lib/prism.js"></script>
+    <script src="../js/collapsibleDiv.js" charset="utf-8"></script>
+    <script src="../lib/codemirror.js" charset="utf-8"></script>
+    <script src="../lib/codemirror-5.58.3/mode/javascript/javascript.js" charset="utf-8"></script>
+    <script>
+      var myTextarea = document.querySelector(".editor")
+
+      var editor = CodeMirror.fromTextArea(myTextarea, {
+        lineNumbers: true,
+        mode: "javascript"
+      });
+
+      console.log(editor);
+    </script>
+
+  </body>
+</html>

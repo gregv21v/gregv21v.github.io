@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Checking for Winner</title>
+    <link href="../lib/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/master.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Checking for Winner</h1>
+    </div>
+
+
+    <div class="body">
+      <p>
+        This section will be mostly seft directed as it is based on programming logic, which you should already
+        understand in coming into this course.
+      </p>
+
+      <div class="tasks">
+        <li>
+          <p>Create a function called didRowWin that checks a row of the grid for victory</p>
+
+
+          <button type="button" class="collapsible">Solution</button>
+          <div class="content">
+            <pre>
+              <code class="language-jsx">
+/**
+  didRowWin()
+  @description checks if a player won in a row
+  @param y the row number to check
+*/
+didRowWin(y) {
+  if(
+    this.state.grid[y][0] === this.state.grid[y][1] &&
+    this.state.grid[y][0] === this.state.grid[y][2] &&
+    this.state.grid[y][0] !== "_"
+  ) {
+    return this.state.grid[y][0];
+  } else {
+    return "_"
+  }
+}
+              </code>
+            </pre>
+          </div>
+        </li>
+
+        <li>
+          <p>Create a function called didColumnWin that checks a column of the grid for victory</p>
+
+
+          <button type="button" class="collapsible">Solution</button>
+          <div class="content">
+            <pre>
+              <code class="language-jsx">
+/**
+  didColumnWin()
+  @description checks if a player won in a column
+  @param x the row number to check
+*/
+didColumnWin(x) {
+  if(
+    this.state.grid[0][x] === this.state.grid[1][x] &&
+    this.state.grid[0][x] === this.state.grid[2][x] &&
+    this.state.grid[0][x] !== "_"
+  ) {
+    return this.state.grid[0][x];
+  } else {
+    return "_"
+  }
+}
+              </code>
+            </pre>
+          </div>
+        </li>
+
+        <li>
+          <p>Create a function called didDiagnoalWin that checks both diagonal of the grid for victory</p>
+
+
+          <button type="button" class="collapsible">Solution</button>
+          <div class="content">
+            <pre>
+              <code class="language-jsx">
+/**
+  didDiagnoalWin()
+  @description checks if a player won in a diagonal
+*/
+didDiagnoalWin() {
+  if((
+      (
+        this.state.grid[0][0] === this.state.grid[1][1] &&
+        this.state.grid[0][0] === this.state.grid[2][2]
+      ) ||
+      (
+        this.state.grid[2][0] === this.state.grid[1][1] &&
+        this.state.grid[2][0] === this.state.grid[0][2]
+      )
+   ) && this.state.grid[1][1] !== "_"
+  ) {
+    return this.state.grid[1][1];
+  } else {
+    return "_"
+  }
+}
+              </code>
+            </pre>
+          </div>
+        </li>
+
+        <li>
+          <p>Create a function called get winner that gets the symbol of the player who won</p>
+
+
+          <button type="button" class="collapsible">Solution</button>
+          <div class="content">
+            <pre>
+              <code class="language-jsx">
+/**
+  getWinner()
+  @description get the symbol of the player that won
+*/
+getWinner() {
+  for(let i = 0; i < 3; i++) {
+    var rowWin = this.didRowWin(i);
+    if(rowWin !== "_") {
+      return rowWin
+    }
+  }
+
+  for(let i = 0; i < 3; i++) {
+    var columnWin = this.didColumnWin(i);
+    if(columnWin !== "_") {
+      return columnWin
+    }
+  }
+
+  var diagonalWin = this.didDiagnoalWin()
+  if(diagonalWin !== "_") {
+    return diagonalWin
+  }
+
+  return "_"
+}
+              </code>
+            </pre>
+          </div>
+        </li>
+
+        <li>
+          <p>Create a function called allCellsOccupied which returns true if all the cells are occupied</p>
+
+
+          <button type="button" class="collapsible">Solution</button>
+          <div class="content">
+            <pre>
+              <code class="language-jsx">
+/**
+  allCellsOccupied()
+  @description determines if the all the cells in the grid have a player
+    symbol in them.
+*/
+allCellsOccupied() {
+  for (var i = 0; i &lt; this.state.grid.length; i++) {
+    for (var j = 0; j &lt; this.state.grid[i].length; j++) {
+      if(this.state.grid[i][j] === "_") {
+        return false
+      }
+    }
+  }
+  return true;
+}
+              </code>
+            </pre>
+          </div>
+        </li>
+
+        <li>
+          <p>Update the handleClick function so that it checks for victory.</p>
+
+
+          <button type="button" class="collapsible">Solution</button>
+          <div class="content">
+            <pre>
+              <code class="language-jsx">
+handleClick(x, y) {
+  var gridTemp = this.state.grid
+
+  if(gridTemp[y][x] === "_") {
+    gridTemp[y][x] = this.state.playerTurn
+
+    // update player turn
+    if(this.state.playerTurn === "X") {
+      this.setState({
+        playerTurn: "O",
+        statusText: "Player O's Turn"
+      })
+    } else {
+      this.setState({
+        playerTurn: "X",
+        statusText: "Player X's Turn"
+      })
+    }
+
+    this.setState({
+      grid: gridTemp
+    })
+  }
+
+  // get the winner if there is one
+  let winner = this.getWinner();
+
+  // checks if there was a draw
+  if(this.allCellsOccupied() && winner === "_") {
+    this.setState({
+      statusText: "It's a tie!"
+    })
+  }
+
+  // check who wins if anyone wins yet
+  if(winner !== "_") {
+    this.setState({
+      statusText: "Player " + winner + " wins!!"
+    })
+  }
+
+}
+              </code>
+            </pre>
+          </div>
+        </li>
+
+        <li>
+          <p>Test your code to see if it works.</p>
+        </li>
+      </div>
+    </div>
+    <div class="footer">
+      <a href="./buttons.html"><== Buttons</a> |
+      <a href="./resetting-the-game.html">Resetting the Game ==></a>
+    </div>
+    <script src="../lib/prism.js"></script>
+    <script src="../js/collapsibleDiv.js" charset="utf-8"></script>
+  </body>
+</html>
