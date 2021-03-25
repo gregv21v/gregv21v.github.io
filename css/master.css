@@ -1,0 +1,15 @@
+.project:nth-child(even) {
+  background: #7b95ab;
+}
+.project:nth-child(odd) {
+  background: #137822;
+}
+
+.project p {
+  color: #293d25;
+}
+
+.project h2 {
+  text-align: center;
+  color: white;
+}
