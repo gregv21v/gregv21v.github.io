@@ -2,7 +2,7 @@
   <div>
 
     <h1>
-      <a href="">{{name}}</a>
+      <a href="/pages">{{name}}</a>
     </h1>
 
 
