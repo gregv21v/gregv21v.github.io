@@ -6,6 +6,7 @@
       name="Spending Tracker"
       description="An app to keep track of your spending."
       imageName="spending-tracker-1"
+      repoLink="https://github.com/gregv21v/SpendingTracker"
     />
 
   </div>

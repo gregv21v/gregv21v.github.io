@@ -1,11 +1,14 @@
 <template>
-  <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/games">Games</router-link> |
-      <router-link to="/apps">Apps</router-link> |
-      <router-link to="/courses">Courses</router-link>
+  <div>
+    <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/games">Games</router-link> |
+        <router-link to="/apps">Apps</router-link> |
+        <router-link to="/courses">Courses</router-link> |
+        <router-link to="/plants">Plants</router-link>
+    </div>
+    <router-view />
   </div>
-  <router-view />
 </template>
 
 <script>

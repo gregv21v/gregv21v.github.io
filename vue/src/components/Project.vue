@@ -1,13 +1,11 @@
 <template>
   <div>
-
     <h1>
-      <a href="/pages">{{name}}</a>
+      {{name}}
     </h1>
-
-
     <p>{{description}}</p>
     <img :src="`./screenshots/${imageName}.png`" width="600" height="300">
+    <p>Here is a link to the Github repo: <a :href="repoLink">{{repoLink}}</a></p>
   </div>
 </template>
 
@@ -17,7 +15,8 @@
     props: {
       name: String,
       description: String,
-      imageName: String
+      imageName: String,
+      repoLink: String
     }
   }
 </script>

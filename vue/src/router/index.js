@@ -3,6 +3,7 @@ import Home from "@/views/Home.vue";
 import Games from "@/views/Games.vue";
 import Apps from "@/views/Apps.vue";
 import Courses from "@/views/Courses.vue";
+import Plants from "@/views/Plants.vue";
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: "/apps",
     name: "Apps",
     component: Apps,
+  },
+  {
+    path: "/plants",
+    name: "Plants",
+    component: Plants,
   }
 ];
 
