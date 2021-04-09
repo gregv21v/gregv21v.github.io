@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Creating the Tic Tac Toe Board</title>
+    <link href="prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/master.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Creating the TicTacToe Board Component</h1>
+      <p></p>
+      <p>Create a file called TicTacToeBoard.js in the components folder we created earlier. In the TicTacToeBoard.js file, you are going to want to create a react component for the TicTacToeBoard by extending the react class Component. The tic tac toe board will display what the current state of the tic tac toe game is. It will hold the state of each cell of the board. </p>
+
+      <!-- Create code solution here -->
+      <pre><code class="language-jsx">
+          import React, {Component} from 'react'
+
+          /**
+            TicTacToeBoard
+            @description The main Tic Tac Toe Board
+          */
+          export default class TicTacToeBoard extends Component {
+
+          }
+      </code></pre>
+
+      <p>In the class, we will create 3 functions: <code>render()</code>, <code>renderRow()</code>, and a constructor. The constructor will contain a state variable called grid, which will store the values for each cell in the tic tac toe grid. </p>
+      <p>
+
+      <!-- Create code solution here -->
+        <pre><code class="language-jsx">
+          // ... begin TicTacToeBoard class
+            /**
+              Props:
+                value - the 'o', 'x', '_' the cell is set to
+            */
+            constructor(props) {
+              super(props)
+              this.state = {
+                // the current players turn
+                playerTurn: "X",
+                // the current state of the tic tac toe game
+                grid: [
+                  ["_", "_", "_"],
+                  ["_", "_", "_"],
+                  ["_", "_", "_"]
+                ]
+              }
+            }
+          // ... end TicTacToeBoard class
+        </code></pre>
+
+      </p>
+      <p>State variables are used to keep the view updated. You can change them anywhere in the class using <code>this.setState</code> and the class will automatically update the view on the next call to the render function.</p>
+
+      <p>The render(), and renderRow() functions will be used together to display the board with all it's x's and o's.</p>
+
+      <!-- Create code solution here -->
+      <pre><code class="language-jsx">
+        /**
+          renderRow()
+          @description renders a row of the Tic Tac Toe board
+          @param row the row to be rendered
+        */
+        renderRow(row) {
+          return row.map((cell, index) => {
+            return (
+              &ltCell key={index} value={cell}/&gt
+            )
+          })
+        }
+      </code></pre>
+
+      <p>Whenever you create a list of components, every item in that list needs a unique key. That is why we have the key attribute set to index.</p>
+
+      <pre><code class="language-jsx">
+        /**
+          render()
+          @description renders the Tic Tac Toe board
+        */
+        render() {
+          return (
+            &ltView&gt
+              {
+                this.state.grid.map(
+                  (row, index) => {
+                    return (
+                      &ltView style={styles.row} key={index}&gt
+                        {this.renderRow(row)}
+                      &lt/View&gt
+                    )
+                  }
+                )
+              }
+            &lt/View&gt
+          )
+        }
+      </code></pre>
+
+      <p>You can see in the render function that we are referencing the variable this.state.grid. This is the same variable we created in the constructor.</p>
+
+      <p>Now that we have the Tic Tac Toe board setup we can go back to the App.js file, and add it to the App Component.</p>
+
+
+      <pre>
+        <code class="language-jsx">
+          export default function App() {
+            return (
+              &lt;SafeAreaView style={styles.container}>
+                &lt;TicTacToeBoard />
+              &lt;/SafeAreaView>
+            );
+          }
+        </code>
+      </pre>
+
+      <p>Test your code to make sure it works</p>
+      <a href="./creating-the-cell-class.html"><== Creating the Cell Class</a> |
+      <a href="./making-the-cell-clickable.html">Making the Cell Clickable ==></a>
+    </div>
+    <script src="prism.js"></script>
+  </body>
+</html>

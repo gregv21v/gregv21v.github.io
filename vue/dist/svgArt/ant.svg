@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <ellipse style="" cx="236.744" cy="230.731" rx="26.141" ry="38.292"/>
+  <ellipse style="" cx="238.954" cy="297.374" rx="22.459" ry="34.978"/>
+  <path style="stroke-width: 19.63px;" transform="matrix(-0.000147, -0.779921, 0.442693, -0.013235, 39.104618, 621.43103)" d="M 300 508 A 59.008 59.008 0 0 1 301 389.992 L 301 449 Z" bx:shape="pie 301 449 0 59.008 180.971 360 1@94855b31"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-width: 12px;" d="M 236.376 365.488 L 238.585 382.424"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 226.067 316.887"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 230.486 327.196"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-width: 11px; fill: none;" d="M 219.441 290.378 L 135.394 299.768 L 97.939 334.56"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 537.555 260.923"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 150.957 255.032"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-width: 11px; fill: none;" d="M 217.599 233.677 L 140.683 224.757 L 106.406 191.703"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-width: 11px; fill: none;" d="M 227.909 354.442 L 153.54 363.988 L 120.398 399.361"/>
+  <ellipse style="" cx="238.218" cy="355.179" rx="18.778" ry="13.991"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-width: 12px;" d="M 237.482 343.764 L 238.218 326.092" transform="matrix(-1, 0, 0, -1, 475.699997, 669.856018)"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-width: 11px; fill: none;" d="M 341.31 419.244 L 277.638 405.629 L 249.263 355.179" transform="matrix(-1, 0, 0, -1, 590.572998, 774.422974)"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-width: 11px; fill: none;" d="M 392.985 348.92 L 295.224 336.401 L 251.657 290.01" transform="matrix(-1, 0, 0, -1, 644.641983, 638.930023)"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-width: 11px; fill: none;" d="M 375.736 257.609 L 291.218 252.445 L 253.553 233.309" transform="matrix(-1, 0, 0, -1, 629.288986, 490.918015)"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-width: 12px;" d="M 236.009 178.817 L 238.218 195.753"/>
+  <path style="fill: rgb(10, 10, 10);" transform="matrix(1.003495, -0.001347, -0.082066, 0.996627, -106.835121, 32.824814)" d="M 355.118 90.455 A 27.992 27.992 0 1 1 355.118 143.545 A 28.118 28.118 0 0 0 355.118 90.455 Z" bx:shape="crescent 364 117 27.992 217 0.678 1@261b26ce"/>
+  <path style="" transform="matrix(-1.093278, 0.001468, -0.082066, 0.996627, 636.337708, 32.628326)" d="M 355.118 90.455 A 27.992 27.992 0 1 1 355.118 143.545 A 28.118 28.118 0 0 0 355.118 90.455 Z" bx:shape="crescent 364 117 27.992 217 0.678 1@261b26ce"/>
+  <path style="" transform="matrix(-0.001996, 0.658362, -0.591621, -0.001794, 396.426819, -135.352203)" d="M 482 325 A 56.009 56.009 0 0 1 483 212.991 L 483 269 Z" bx:shape="pie 483 269 0 56.009 181.023 360 1@b7b9c103"/>
+</svg>

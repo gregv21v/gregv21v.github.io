@@ -6,6 +6,7 @@
     <Course
       v-for="course in courses"
       :name = "course.name"
+      :url = "course.url"
       :description = "course.description"
       :sections = "course.sections"
       v-bind:key="course.name"
@@ -30,6 +31,7 @@
           {
             name: "Expo Tic Tac Toe Game Course",
             description: "a course that teaches you about the Expo SDK by learning how to create a Tic Tac Toe game.",
+            url: "./pages/courses/expo-course/",
             sections: [
               {
                 name: "Introduction",

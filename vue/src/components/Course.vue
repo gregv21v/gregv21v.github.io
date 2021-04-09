@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>
-      <router-link to="/">{{name}}</router-link>
+      <a :href="url">{{name}}</a>
     </h1>
     <p>{{description}}</p>
     <div v-for='section in sections' :key="section.name">
@@ -16,6 +16,7 @@
     props: {
       name: String,
       description: String,
+      url: String,
       sections: Array
     }
   }
