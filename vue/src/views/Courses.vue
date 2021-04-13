@@ -21,6 +21,9 @@
   import Course from "@/components/Course.vue"
 
   export default {
+    created() {
+      document.title = "Courses"
+    },
     name: "Courses",
     components: {
       Course

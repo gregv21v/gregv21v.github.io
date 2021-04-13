@@ -13,7 +13,14 @@
 
 </template>
 
-
+<script>
+  export default {
+    created() {
+      document.title = "Home"
+    },
+    name: "Home"
+  }
+</script>
 
 <style scoped>
   p {

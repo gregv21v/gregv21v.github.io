@@ -24,6 +24,9 @@
   import ArtPieceRow from "@/components/ArtPieceRow.vue"
 
   export default {
+    created() {
+      document.title = "Art"
+    },
     name: "Art",
     components: {
       ArtPieceRow

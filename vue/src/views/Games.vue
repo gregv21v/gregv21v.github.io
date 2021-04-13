@@ -23,6 +23,9 @@
   import Project from "@/components/Project.vue"
 
   export default {
+    created() {
+      document.title = "Games"
+    },
     name: "Games",
     components: {
       Project

@@ -7,7 +7,6 @@
         <router-link to="/courses">Courses</router-link> |
         <router-link to="/games">Games</router-link> |
         <router-link to="/plants">Plants</router-link>
-
     </div>
     <router-view />
   </div>
