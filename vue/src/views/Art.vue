@@ -1,20 +1,15 @@
 <template>
   <div>
-    <h1>Art</h1>
-
-    <p>Here is where I will showcase my art work.</p>
-
-
+    <h1>Artwork</h1>
 
     <div class="artwork">
+      <p>Here is where I will showcase my artwork, which is made with <a href="https://boxy-svg.com/">Boxy SVG</a>.</p>
       <ArtPieceRow
         v-for="pieces in artwork"
         :pieces="pieces"
         v-bind:key="pieces[0].imageName"
       />
     </div>
-
-
 
   </div>
 
@@ -84,4 +79,5 @@
     margin: auto;
     background-color: #3483eb;
   }
+
 </style>

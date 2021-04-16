@@ -1,15 +1,18 @@
 <template>
-  <div>
-    <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/apps">Apps</router-link> |
-        <router-link to="/art">Art</router-link> |
-        <router-link to="/courses">Courses</router-link> |
-        <router-link to="/games">Games</router-link> |
-        <router-link to="/plants">Plants</router-link>
+  <div id="header">
+    <div id="logo">
+      <router-link to="/" class="home">Gregv21v</router-link>
     </div>
-    <router-view />
+    <div id="nav">
+        <router-link to="/apps" class="link">Apps</router-link> |
+        <router-link to="/art" class="link">Art</router-link> |
+        <router-link to="/courses" class="link">Courses</router-link> |
+        <router-link to="/games" class="link">Games</router-link> |
+        <router-link to="/plants" class="link">Plants</router-link>
+    </div>
   </div>
+  <router-view />
+
 </template>
 
 <script>
@@ -22,6 +25,39 @@ export default {
 </script>
 
 <style>
+#logo {
+  float: left;
+  width: 25%;
+  text-align: left;
+}
+
+.link, .home {
+  text-decoration: none;
+}
+
+#logo .router-link-active {
+  background-color: inherit;
+}
+
+.router-link-active {
+  background-color: #3483eb;
+}
+
+
+#nav {
+  width: 75%;
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: right;
+}
+
+#header {
+  width: 700px;
+  display: flex;
+  margin: auto;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -31,7 +67,7 @@ export default {
   margin-top: 10px;
 }
 
-a {
+a, p {
   color: black
 }
 

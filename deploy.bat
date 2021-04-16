@@ -1,9 +1,14 @@
 
 # build
+cd vue
 npm run build
 
 # navigate into the build output directory
-cd dist
+cd ..
+
+# delete dist files from root
+
+# copy dist files to root
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME

@@ -81,3 +81,11 @@
   }
 
 </script>
+
+<style scoped>
+  div {
+    width: 700px;
+    margin: auto;
+    background-color: #3483eb;
+  }
+</style>

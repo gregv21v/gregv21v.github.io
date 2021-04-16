@@ -6,7 +6,7 @@
       name="Spending Tracker"
       description="An app to keep track of your spending."
       imageName="spending-tracker-1"
-      repoLink="https://github.com/gregv21v/SpendingTracker"
+      repoLink="https://github.com/gregv21v/spendingTrackerManaged"
     />
 
   </div>
@@ -28,3 +28,11 @@
   }
 
 </script>
+
+<style scoped>
+  div {
+    width: 700px;
+    margin: auto;
+    background-color: #3483eb;
+  }
+</style>

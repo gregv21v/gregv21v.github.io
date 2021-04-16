@@ -27,7 +27,7 @@
     color: darkblue;
   }
 
-  div {
+  div { 
     width: 700px;
     margin: auto;
     background-color: #3483eb;
