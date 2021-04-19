@@ -3,9 +3,6 @@
     <h1>Avocado Trees</h1>
     <p class="lastUpdated"><strong>Updated 4/13/2021</strong></p>
 
-    <p>Welcome to my page on plants. Here is where I will post all things
-    related to plants.</p>
-
     <p>Avocados grow fast in water, but if you transfer them to dirt they get water shock. This slows down there growth.</p>
 
     <p>

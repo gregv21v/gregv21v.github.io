@@ -5,6 +5,10 @@ import Apps from "@/views/Apps.vue";
 import Courses from "@/views/Courses.vue";
 import Plants from "@/views/Plants.vue";
 import Avocados from "@/views/plants/Avocados.vue";
+import Basil from "@/views/plants/Basil.vue";
+import Arugala from "@/views/plants/Arugala.vue";
+import Tomatos from "@/views/plants/Tomatos.vue";
+import Peppers from "@/views/plants/Peppers.vue";
 import Art from "@/views/Art.vue";
 
 const routes = [
@@ -37,6 +41,26 @@ const routes = [
     path: "/avocados",
     name: "Avocados",
     component: Avocados,
+  },
+  {
+    path: "/arugala",
+    name: "Arugala",
+    component: Arugala,
+  },
+  {
+    path: "/basil",
+    name: "Basil",
+    component: Basil,
+  },
+  {
+    path: "/tomatos",
+    name: "Tomatos",
+    component: Tomatos,
+  },
+  {
+    path: "/peppers",
+    name: "Peppers",
+    component: Peppers,
   },
   {
     path: "/art",
