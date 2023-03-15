@@ -6,17 +6,10 @@ npm run build
 # navigate into the build output directory
 cd ..
 
-# delete dist files from root
-rmdir css 
-rmdir js
-rmdir pages 
-rmdir screenshots
-rmdir svgArt 
-del "favicon.ico"
-del "index.html"
 
-# copy dist files to root
-copy "vue/dist" dist
+
+# copy dist files to root overwriting existing files
+xcopy "vue/dist" . /E
 
 
 # if you are deploying to a custom domain
@@ -32,4 +25,4 @@ git push -f git@github.com:gregv21v/gregv21v.github.io.git master
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-cd -
+cd ..
