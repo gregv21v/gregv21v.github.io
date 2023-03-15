@@ -7,6 +7,7 @@
       <h1>{{name}}</h1>
       <p><strong>Description: </strong>{{description}}</p>
       <p>Here is a link to the Github repo: <a :href="repoLink">{{repoLink}}</a></p>
+      <p>You can play the game <a :href="page">here.</a></p>
     </div>
   </div>
 </template>
@@ -18,7 +19,8 @@
       name: String,
       description: String,
       imageName: String,
-      repoLink: String
+      repoLink: String,
+      page: String // the page on my github website where the game is hosted
     }
   }
 </script>
