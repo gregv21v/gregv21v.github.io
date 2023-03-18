@@ -21,12 +21,12 @@ copy "./dist/index.html" "../404.html" /E/Y
 rem if you are deploying to a custom domain
 rem echo 'www.example.com' > CNAME
 
-rem git init
-rem git add -A
-rem git commit -m 'deploy'
+git init
+git add -A
+git commit -m 'deploy'
 
 rem if you are deploying to https://<USERNAME>.github.io
-rem git push -f git@github.com:gregv21v/gregv21v.github.io.git master
+git push -f git@github.com:gregv21v/gregv21v.github.io.git master
 
 rem if you are deploying to https://<USERNAME>.github.io/<REPO>
 rem git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
