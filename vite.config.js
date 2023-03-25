@@ -5,7 +5,7 @@ export default defineConfig({
     solid({
       ssr: false,
       outDir: "dist",
-      base: "/public/"
+      base: "/"
     }),
   ],
 });
