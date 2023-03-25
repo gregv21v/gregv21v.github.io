@@ -4,7 +4,8 @@ export default defineConfig({
   plugins: [
     solid({
       ssr: false,
-      outdir: "dist",
+      outDir: "dist",
+      base: "/public/"
     }),
   ],
 });
