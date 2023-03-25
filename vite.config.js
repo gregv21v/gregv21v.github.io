@@ -5,7 +5,6 @@ export default defineConfig({
   base: "./",
   plugins: [
     solid({
-      ssr: false,
       adapter: solidStatic()
     }),
   ],
