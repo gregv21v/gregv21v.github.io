@@ -2,43 +2,43 @@
   "/*404": [
     {
       "type": "script",
-      "href": "/gregv21v.github.io/assets/_...404_-5ae8170c.js"
+      "href": "./assets/_...404_-22e2ee9b.js"
     },
     {
       "type": "script",
-      "href": "/gregv21v.github.io/assets/entry-client-0801451c.js"
+      "href": "./assets/entry-client-021a3566.js"
     },
     {
       "type": "style",
-      "href": "/gregv21v.github.io/assets/entry-client-d870915a.css"
+      "href": "./assets/entry-client-d870915a.css"
     }
   ],
   "/": [
     {
       "type": "script",
-      "href": "/gregv21v.github.io/assets/index-cd50021c.js"
+      "href": "./assets/index-aa6189d0.js"
     },
     {
       "type": "script",
-      "href": "/gregv21v.github.io/assets/entry-client-0801451c.js"
+      "href": "./assets/entry-client-021a3566.js"
     },
     {
       "type": "style",
-      "href": "/gregv21v.github.io/assets/entry-client-d870915a.css"
+      "href": "./assets/entry-client-d870915a.css"
     },
     {
       "type": "style",
-      "href": "/gregv21v.github.io/assets/index-fdb6b3cf.css"
+      "href": "./assets/index-fdb6b3cf.css"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/gregv21v.github.io/assets/entry-client-0801451c.js"
+      "href": "./assets/entry-client-021a3566.js"
     },
     {
       "type": "style",
-      "href": "/gregv21v.github.io/assets/entry-client-d870915a.css"
+      "href": "./assets/entry-client-d870915a.css"
     }
   ],
   "index.html": []

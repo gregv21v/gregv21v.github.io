@@ -34,17 +34,17 @@
   "node_modules/solid-start/server/ServerContext.tsx": [
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/gregv21v.github.io/assets/_...404_-5ae8170c.js"
+    "./assets/_...404_-22e2ee9b.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/Counter.css": [
-    "/gregv21v.github.io/assets/index-cd50021c.js",
-    "/gregv21v.github.io/assets/index-fdb6b3cf.css"
+    "./assets/index-aa6189d0.js",
+    "./assets/index-fdb6b3cf.css"
   ],
   "src/components/Counter.jsx": [
-    "/gregv21v.github.io/assets/index-cd50021c.js",
-    "/gregv21v.github.io/assets/index-fdb6b3cf.css"
+    "./assets/index-aa6189d0.js",
+    "./assets/index-fdb6b3cf.css"
   ],
   "src/entry-client.jsx": [
   ],
@@ -53,10 +53,10 @@
   "src/root.jsx": [
   ],
   "src/routes/[...404].jsx": [
-    "/gregv21v.github.io/assets/_...404_-5ae8170c.js"
+    "./assets/_...404_-22e2ee9b.js"
   ],
   "src/routes/index.jsx": [
-    "/gregv21v.github.io/assets/index-cd50021c.js",
-    "/gregv21v.github.io/assets/index-fdb6b3cf.css"
+    "./assets/index-aa6189d0.js",
+    "./assets/index-fdb6b3cf.css"
   ]
 }
