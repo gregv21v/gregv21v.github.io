@@ -34,17 +34,17 @@
   "node_modules/solid-start/server/ServerContext.tsx": [
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/$%7Brepo%7D/assets/_...404_-441bb728.js"
+    "/gregv21v.github.io/assets/_...404_-5ae8170c.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/Counter.css": [
-    "/$%7Brepo%7D/assets/index-bc891fb8.js",
-    "/$%7Brepo%7D/assets/index-fdb6b3cf.css"
+    "/gregv21v.github.io/assets/index-cd50021c.js",
+    "/gregv21v.github.io/assets/index-fdb6b3cf.css"
   ],
   "src/components/Counter.jsx": [
-    "/$%7Brepo%7D/assets/index-bc891fb8.js",
-    "/$%7Brepo%7D/assets/index-fdb6b3cf.css"
+    "/gregv21v.github.io/assets/index-cd50021c.js",
+    "/gregv21v.github.io/assets/index-fdb6b3cf.css"
   ],
   "src/entry-client.jsx": [
   ],
@@ -53,10 +53,10 @@
   "src/root.jsx": [
   ],
   "src/routes/[...404].jsx": [
-    "/$%7Brepo%7D/assets/_...404_-441bb728.js"
+    "/gregv21v.github.io/assets/_...404_-5ae8170c.js"
   ],
   "src/routes/index.jsx": [
-    "/$%7Brepo%7D/assets/index-bc891fb8.js",
-    "/$%7Brepo%7D/assets/index-fdb6b3cf.css"
+    "/gregv21v.github.io/assets/index-cd50021c.js",
+    "/gregv21v.github.io/assets/index-fdb6b3cf.css"
   ]
 }
