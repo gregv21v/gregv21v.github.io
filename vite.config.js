@@ -1,12 +1,11 @@
 import solid from "solid-start/vite";
-import solidStatic from "solid-start-static";
+//import solidStatic from "solid-start-static";
+import netlify from "solid-start-netlify";
 import { defineConfig } from "vite";
 export default defineConfig({
-  base: "./",
-  outdir: "dist",
   plugins: [
     solid({
-      adapter: solidStatic()
+      adapter: netlify()
     }),
   ],
 });

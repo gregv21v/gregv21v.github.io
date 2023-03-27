@@ -5,17 +5,19 @@
     "build": "solid-start build",
     "start": "solid-start start",
     "preview": "vite preview"
-   },
+  },
   "type": "module",
   "devDependencies": {
     "esbuild": "^0.14.54",
     "postcss": "^8.4.21",
+    "solid-start-netlify": "^0.2.24",
     "solid-start-static": "^0.2.23",
     "vite": "^4.1.4"
   },
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.1",
+    "express": "^4.18.2",
     "solid-js": "^1.6.11",
     "solid-start": "^0.2.23",
     "undici": "^5.15.1"
