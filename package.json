@@ -4,9 +4,8 @@
     "dev": "solid-start dev",
     "build": "solid-start build",
     "start": "solid-start start",
-    "preview": "vite preview",
-    "postinstall": "patch -Np1 -i solid-start-use-base-path-in-client-router.patch"
-  },
+    "preview": "vite preview"
+   },
   "type": "module",
   "devDependencies": {
     "esbuild": "^0.14.54",
