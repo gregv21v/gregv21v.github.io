@@ -34,17 +34,17 @@
   "node_modules/solid-start/server/ServerContext.tsx": [
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "./assets/_...404_-22e2ee9b.js"
+    "/assets/_...404_-44755b7c.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/Counter.css": [
-    "./assets/index-aa6189d0.js",
-    "./assets/index-fdb6b3cf.css"
+    "/assets/index-17407f8b.js",
+    "/assets/index-fdb6b3cf.css"
   ],
   "src/components/Counter.jsx": [
-    "./assets/index-aa6189d0.js",
-    "./assets/index-fdb6b3cf.css"
+    "/assets/index-17407f8b.js",
+    "/assets/index-fdb6b3cf.css"
   ],
   "src/entry-client.jsx": [
   ],
@@ -53,10 +53,10 @@
   "src/root.jsx": [
   ],
   "src/routes/[...404].jsx": [
-    "./assets/_...404_-22e2ee9b.js"
+    "/assets/_...404_-44755b7c.js"
   ],
   "src/routes/index.jsx": [
-    "./assets/index-aa6189d0.js",
-    "./assets/index-fdb6b3cf.css"
+    "/assets/index-17407f8b.js",
+    "/assets/index-fdb6b3cf.css"
   ]
 }
