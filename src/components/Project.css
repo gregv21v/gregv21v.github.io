@@ -1,0 +1,17 @@
+.image {
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+}

@@ -15,12 +15,12 @@ main {
 
 h1 {
   color: #335d92;
-  text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 100;
   line-height: 1.1;
   margin: 4rem auto;
   max-width: 14rem;
+  color: darkblue;
 }
 
 p {
@@ -37,4 +37,8 @@ p {
   p {
     max-width: none;
   }
+}
+
+.page-title {
+  font-size: xx-large;
 }
