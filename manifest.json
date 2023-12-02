@@ -1,37 +1,90 @@
 {
+  "Project.css": {
+    "file": "assets/Project-6018c76e.css",
+    "src": "Project.css"
+  },
+  "_Project-c8be077f.js": {
+    "css": [
+      "assets/Project-6018c76e.css"
+    ],
+    "file": "assets/Project-c8be077f.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ]
+  },
   "src/entry-client.css": {
-    "file": "assets/entry-client-d870915a.css",
+    "file": "assets/entry-client-b9197ff5.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.jsx": {
     "css": [
-      "assets/entry-client-d870915a.css"
+      "assets/entry-client-b9197ff5.css"
     ],
     "dynamicImports": [
       "src/routes/[...404].jsx",
-      "src/routes/index.jsx"
+      "src/routes/Art.jsx",
+      "src/routes/Courses.jsx",
+      "src/routes/Games.jsx",
+      "src/routes/index.jsx",
+      "src/routes/Plants.jsx",
+      "src/routes/Puzzles.jsx"
     ],
-    "file": "assets/entry-client-1b35b921.js",
+    "file": "assets/entry-client-0ea0db12.js",
     "isEntry": true,
     "src": "src/entry-client.jsx"
   },
+  "src/routes/Art.jsx": {
+    "file": "assets/Art-d2e9996d.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/Art.jsx"
+  },
+  "src/routes/Courses.jsx": {
+    "file": "assets/Courses-fb37a071.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/Courses.jsx"
+  },
+  "src/routes/Games.jsx": {
+    "file": "assets/Games-16992e71.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_Project-c8be077f.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/Games.jsx"
+  },
+  "src/routes/Plants.jsx": {
+    "file": "assets/Plants-d4b4b22e.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/Plants.jsx"
+  },
+  "src/routes/Puzzles.jsx": {
+    "file": "assets/Puzzles-02a354e3.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_Project-c8be077f.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/Puzzles.jsx"
+  },
   "src/routes/[...404].jsx": {
-    "file": "assets/_...404_-44755b7c.js",
+    "file": "assets/_...404_-b506c06a.js",
     "imports": [
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/[...404].jsx"
   },
-  "src/routes/index.css": {
-    "file": "assets/index-fdb6b3cf.css",
-    "src": "src/routes/index.css"
-  },
   "src/routes/index.jsx": {
-    "css": [
-      "assets/index-fdb6b3cf.css"
-    ],
-    "file": "assets/index-17407f8b.js",
+    "file": "assets/index-3d251b20.js",
     "imports": [
       "src/entry-client.jsx"
     ],

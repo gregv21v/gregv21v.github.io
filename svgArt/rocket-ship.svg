@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="189.249" y1="370.97" x2="189.249" y2="440.926" id="gradient-1" gradientTransform="matrix(1.008475, 0, 0, 1.073684, -1.235625, -32.489201)">
+      <stop offset="0" style="stop-color: rgba(223, 201, 34, 1)"/>
+      <stop offset="1" style="stop-color: rgba(135, 122, 20, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="189.249" y1="370.97" x2="189.249" y2="440.926" id="gradient-2" gradientTransform="matrix(1, 0, 0, 1, 99.410782, -2.577036)">
+      <stop offset="0" style="stop-color: rgba(223, 201, 34, 1)"/>
+      <stop offset="1" style="stop-color: rgba(135, 122, 20, 1)"/>
+    </linearGradient>
+    <path id="path-0" style="fill: none;" d="M 567.7466695576527 126.90230333759665 L 302.1935230883989 287.4516268476613"/>
+    <path id="path-1" d="M 224.59498601178223 377.270484465485 L 224.59498601178223 363.58859944889844" style="fill: none;"/>
+  </defs>
+  <path style="stroke: rgb(0, 0, 0); paint-order: fill; fill: url(#gradient-1);" d="M 145.803 365.815 L 152.486 420.369 L 161.398 406.929 L 162.14 430.648 L 176.992 406.139 L 185.162 436.182 L 197.044 406.139 L 202.985 426.694 L 213.381 406.139 L 225.263 440.926 L 233.431 399.022 L 231.946 368.188"/>
+  <path style="stroke: rgb(0, 0, 0); paint-order: fill; fill: url(#gradient-2);" d="M 245.214 368.393 L 251.841 419.203 L 260.678 406.685 L 261.414 428.776 L 276.141 405.949 L 284.242 433.931 L 296.024 405.949 L 301.915 425.094 L 312.224 405.949 L 324.006 438.349 L 332.106 399.321 L 330.633 370.603"/>
+  <rect x="189.985" y="106.038" width="92.047" height="264.359" style="fill: rgb(161, 151, 151);"/>
+  <path d="M 156.942 100.71 L 212.628 208.978 L 101.255 208.978 L 156.942 100.71 Z" style="fill: rgb(34, 30, 30);" transform="matrix(0.999971, -0.007673, 0.007673, 0.999971, 123.771881, 162.322098)" bx:shape="triangle 101.255 100.71 111.373 108.268 0.5 0 1@6d2258fe"/>
+  <path d="M 191.983 59.792 L 238.902 155.826 L 145.063 155.826 L 191.983 59.792 Z" style="fill: rgb(161, 151, 151);" transform="matrix(0.999583, -0.028869, 0.028869, 0.999583, 39.429005, -41.896832)"/>
+  <path d="M 156.942 100.71 L 212.628 208.978 L 101.255 208.978 L 156.942 100.71 Z" style="fill: rgb(34, 30, 30);" transform="matrix(0.999971, -0.007673, 0.007673, 0.999971, 34.069332, 164.479568)" bx:shape="triangle 101.255 100.71 111.373 108.268 0.5 0 1@6d2258fe"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 586.892 328.261"/>
+  <path d="M 279.087 83.141 L 292.54 106.442 L 265.634 106.442 L 279.087 83.141 Z" style="fill: rgb(216, 216, 216);" transform="matrix(0.999689, 0.024948, -0.024948, 0.999689, -42.370396, -66.742126)" bx:shape="triangle 265.634 83.141 26.906 23.301 0.5 0 1@04a7a5a0"/>
+  <rect x="189.249" y="106.611" width="93.52" height="16.937" style="fill: rgb(216, 216, 216);"/>
+</svg>
