@@ -12,6 +12,7 @@ import {
   Scripts,
   Title,
 } from "solid-start";
+import { memo } from "solid-js/web";
 import "./root.css";
 export default function Root() {
   return (
