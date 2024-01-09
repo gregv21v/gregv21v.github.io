@@ -3,16 +3,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Art-d2e9996d.js"
+      "href": "/assets/Art-ba33a153.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Art-d2e9996d.js"
+        "href": "/assets/Art-ba33a153.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-0ea0db12.js"
+        "href": "/assets/entry-client-78c5317f.js"
       },
       {
         "type": "style",
@@ -24,16 +24,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Courses-fb37a071.js"
+      "href": "/assets/Courses-cce3950f.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Courses-fb37a071.js"
+        "href": "/assets/Courses-cce3950f.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-0ea0db12.js"
+        "href": "/assets/entry-client-78c5317f.js"
       },
       {
         "type": "style",
@@ -45,16 +45,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Games-16992e71.js"
+      "href": "/assets/Games-8dee6595.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Games-16992e71.js"
+        "href": "/assets/Games-8dee6595.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-0ea0db12.js"
+        "href": "/assets/entry-client-78c5317f.js"
       },
       {
         "type": "style",
@@ -62,7 +62,7 @@
       },
       {
         "type": "script",
-        "href": "/assets/Project-c8be077f.js"
+        "href": "/assets/Project-9afba351.js"
       },
       {
         "type": "style",
@@ -74,16 +74,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Plants-d4b4b22e.js"
+      "href": "/assets/Plants-256e176c.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Plants-d4b4b22e.js"
+        "href": "/assets/Plants-256e176c.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-0ea0db12.js"
+        "href": "/assets/entry-client-78c5317f.js"
       },
       {
         "type": "style",
@@ -95,16 +95,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Puzzles-02a354e3.js"
+      "href": "/assets/Puzzles-4693fb1a.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Puzzles-02a354e3.js"
+        "href": "/assets/Puzzles-4693fb1a.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-0ea0db12.js"
+        "href": "/assets/entry-client-78c5317f.js"
       },
       {
         "type": "style",
@@ -112,7 +112,7 @@
       },
       {
         "type": "script",
-        "href": "/assets/Project-c8be077f.js"
+        "href": "/assets/Project-9afba351.js"
       },
       {
         "type": "style",
@@ -124,16 +124,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/_...404_-b506c06a.js"
+      "href": "/assets/_...404_-8f721817.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/_...404_-b506c06a.js"
+        "href": "/assets/_...404_-8f721817.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-0ea0db12.js"
+        "href": "/assets/entry-client-78c5317f.js"
       },
       {
         "type": "style",
@@ -145,16 +145,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/index-3d251b20.js"
+      "href": "/assets/index-ac2d2973.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/index-3d251b20.js"
+        "href": "/assets/index-ac2d2973.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-0ea0db12.js"
+        "href": "/assets/entry-client-78c5317f.js"
       },
       {
         "type": "style",
@@ -166,12 +166,12 @@
     "type": "entry",
     "script": {
       "type": "script",
-      "href": "/assets/entry-client-0ea0db12.js"
+      "href": "/assets/entry-client-78c5317f.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/entry-client-0ea0db12.js"
+        "href": "/assets/entry-client-78c5317f.js"
       },
       {
         "type": "style",
