@@ -1,1 +1,0 @@
-import{g as a,a as i,i as l,c as o,T as s,t as m}from"./entry-client-78c5317f.js";const c=m("<main><!$><!/><h1>Gregv21v</h1><p>Welcome to Gregv21v!");function p(){return(()=>{const e=a(c),n=e.firstChild,[t,r]=i(n.nextSibling);return t.nextSibling,l(e,o(s,{children:"Gregv21v"}),t,r),e})()}export{p as default};
