@@ -31,6 +31,7 @@ export default function Root() {
             <A href="/Courses">Courses</A>
             <A href="/Games">Games</A>
             <A href="/Puzzles">Puzzles</A>
+            <A href="/Origami">Origami</A>
             <Routes>
               <FileRoutes />
             </Routes>

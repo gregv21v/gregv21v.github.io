@@ -3,7 +3,7 @@ import "./Project.css";
 import { Accordion, Container, Row, Col, Image } from "solid-bootstrap";
 export default function Project(props) {
   return (
-    <Accordion.Item eventKey="0">
+    <Accordion.Item eventKey={props.eventKey}>
       <Accordion.Header>{props.name}</Accordion.Header>
       <Accordion.Body>
         <Container>
