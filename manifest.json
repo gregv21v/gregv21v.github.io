@@ -3,11 +3,11 @@
     "file": "assets/Project-6018c76e.css",
     "src": "Project.css"
   },
-  "_Project-262bd322.js": {
+  "_Project-f3728f69.js": {
     "css": [
       "assets/Project-6018c76e.css"
     ],
-    "file": "assets/Project-262bd322.js",
+    "file": "assets/Project-f3728f69.js",
     "imports": [
       "src/entry-client.jsx"
     ]
@@ -26,15 +26,16 @@
       "src/routes/Courses.jsx",
       "src/routes/Games.jsx",
       "src/routes/index.jsx",
+      "src/routes/Origami.jsx",
       "src/routes/Plants.jsx",
       "src/routes/Puzzles.jsx"
     ],
-    "file": "assets/entry-client-bdc0a32f.js",
+    "file": "assets/entry-client-d65d6ff1.js",
     "isEntry": true,
     "src": "src/entry-client.jsx"
   },
   "src/routes/Art.jsx": {
-    "file": "assets/Art-b3c20c77.js",
+    "file": "assets/Art-f5b5d105.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -42,7 +43,7 @@
     "src": "src/routes/Art.jsx"
   },
   "src/routes/Courses.jsx": {
-    "file": "assets/Courses-0a498a68.js",
+    "file": "assets/Courses-29e850f0.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -50,16 +51,24 @@
     "src": "src/routes/Courses.jsx"
   },
   "src/routes/Games.jsx": {
-    "file": "assets/Games-c072f53a.js",
+    "file": "assets/Games-1641f1ed.js",
     "imports": [
       "src/entry-client.jsx",
-      "_Project-262bd322.js"
+      "_Project-f3728f69.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/Games.jsx"
   },
+  "src/routes/Origami.jsx": {
+    "file": "assets/Origami-31dda9fd.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/Origami.jsx"
+  },
   "src/routes/Plants.jsx": {
-    "file": "assets/Plants-e02ef653.js",
+    "file": "assets/Plants-2fe97df9.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -67,16 +76,16 @@
     "src": "src/routes/Plants.jsx"
   },
   "src/routes/Puzzles.jsx": {
-    "file": "assets/Puzzles-c56434f6.js",
+    "file": "assets/Puzzles-6ace11ce.js",
     "imports": [
       "src/entry-client.jsx",
-      "_Project-262bd322.js"
+      "_Project-f3728f69.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/Puzzles.jsx"
   },
   "src/routes/[...404].jsx": {
-    "file": "assets/_...404_-66a1264d.js",
+    "file": "assets/_...404_-a045a925.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -84,7 +93,7 @@
     "src": "src/routes/[...404].jsx"
   },
   "src/routes/index.jsx": {
-    "file": "assets/index-24a9e8cc.js",
+    "file": "assets/index-e17fbf14.js",
     "imports": [
       "src/entry-client.jsx"
     ],
