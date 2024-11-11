@@ -1,1 +1,0 @@
-import{g as r,a as n,i as s,c as l,T as m,t as o}from"./entry-client-d65d6ff1.js";const g=o("<main><!$><!/><h1 class=page-title>Origami</h1><p>Here is some of the origami that I have created.");function h(){return(()=>{const e=r(g),i=e.firstChild,[t,a]=n(i.nextSibling);return t.nextSibling,s(e,l(m,{children:"Origami"}),t,a),e})()}export{h as default};

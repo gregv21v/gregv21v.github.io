@@ -3,16 +3,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Art-f5b5d105.js"
+      "href": "/assets/Art-605214c2.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Art-f5b5d105.js"
+        "href": "/assets/Art-605214c2.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-d65d6ff1.js"
+        "href": "/assets/entry-client-fe770703.js"
       },
       {
         "type": "style",
@@ -24,16 +24,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Courses-29e850f0.js"
+      "href": "/assets/Courses-29a42e49.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Courses-29e850f0.js"
+        "href": "/assets/Courses-29a42e49.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-d65d6ff1.js"
+        "href": "/assets/entry-client-fe770703.js"
       },
       {
         "type": "style",
@@ -45,16 +45,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Games-1641f1ed.js"
+      "href": "/assets/Games-1bc560f1.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Games-1641f1ed.js"
+        "href": "/assets/Games-1bc560f1.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-d65d6ff1.js"
+        "href": "/assets/entry-client-fe770703.js"
       },
       {
         "type": "style",
@@ -62,7 +62,7 @@
       },
       {
         "type": "script",
-        "href": "/assets/Project-f3728f69.js"
+        "href": "/assets/Project-1bddd624.js"
       },
       {
         "type": "style",
@@ -74,16 +74,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Origami-31dda9fd.js"
+      "href": "/assets/Origami-0c8e8c12.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Origami-31dda9fd.js"
+        "href": "/assets/Origami-0c8e8c12.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-d65d6ff1.js"
+        "href": "/assets/entry-client-fe770703.js"
       },
       {
         "type": "style",
@@ -95,16 +95,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Plants-2fe97df9.js"
+      "href": "/assets/Plants-00b14ebd.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Plants-2fe97df9.js"
+        "href": "/assets/Plants-00b14ebd.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-d65d6ff1.js"
+        "href": "/assets/entry-client-fe770703.js"
       },
       {
         "type": "style",
@@ -116,16 +116,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/Puzzles-6ace11ce.js"
+      "href": "/assets/Puzzles-ae52fa1b.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/Puzzles-6ace11ce.js"
+        "href": "/assets/Puzzles-ae52fa1b.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-d65d6ff1.js"
+        "href": "/assets/entry-client-fe770703.js"
       },
       {
         "type": "style",
@@ -133,7 +133,7 @@
       },
       {
         "type": "script",
-        "href": "/assets/Project-f3728f69.js"
+        "href": "/assets/Project-1bddd624.js"
       },
       {
         "type": "style",
@@ -145,16 +145,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/_...404_-a045a925.js"
+      "href": "/assets/_...404_-741b9794.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/_...404_-a045a925.js"
+        "href": "/assets/_...404_-741b9794.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-d65d6ff1.js"
+        "href": "/assets/entry-client-fe770703.js"
       },
       {
         "type": "style",
@@ -166,16 +166,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/assets/index-e17fbf14.js"
+      "href": "/assets/index-777d131d.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/index-e17fbf14.js"
+        "href": "/assets/index-777d131d.js"
       },
       {
         "type": "script",
-        "href": "/assets/entry-client-d65d6ff1.js"
+        "href": "/assets/entry-client-fe770703.js"
       },
       {
         "type": "style",
@@ -187,12 +187,12 @@
     "type": "entry",
     "script": {
       "type": "script",
-      "href": "/assets/entry-client-d65d6ff1.js"
+      "href": "/assets/entry-client-fe770703.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/assets/entry-client-d65d6ff1.js"
+        "href": "/assets/entry-client-fe770703.js"
       },
       {
         "type": "style",

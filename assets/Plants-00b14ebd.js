@@ -1,0 +1,1 @@
+import{g as l,a as s,i as r,c as i,T as o,t as p}from"./entry-client-fe770703.js";const c=p("<main><!$><!/><h1 class=page-title>Plants</h1><p>Here are the plants I've planted");function g(){return(()=>{const e=l(c),a=e.firstChild,[t,n]=s(a.nextSibling);return t.nextSibling,r(e,i(o,{children:"Plants"}),t,n),e})()}export{g as default};

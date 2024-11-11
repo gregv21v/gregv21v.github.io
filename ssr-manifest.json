@@ -14,135 +14,135 @@
   "node_modules/@solidjs/router/dist/utils.js": [
   ],
   "node_modules/dom-helpers/esm/addEventListener.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/canUseDOM.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/css.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/getComputedStyle.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/hyphenate.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/hyphenateStyle.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/isTransform.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/listen.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/ownerDocument.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/ownerWindow.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/removeEventListener.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/transitionEnd.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/dom-helpers/esm/triggerEvent.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap-core/dist/esm/createControlledProp.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap-core/dist/esm/utils.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/Accordion.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/AccordionBody.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/AccordionButton.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/AccordionCollapse.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/AccordionContext.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/AccordionHeader.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/AccordionItem.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/AccordionItemContext.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/Col.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/Collapse.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/Container.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/Image.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/Row.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/ThemeProvider.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/TransitionWrapper.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/classnames.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/transitionEndListener.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-bootstrap/dist/esm/triggerBrowserReflow.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-js/dist/solid.js": [
@@ -150,15 +150,15 @@
   "node_modules/solid-js/web/dist/web.js": [
   ],
   "node_modules/solid-react-transition/dist/esm/Transition.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-react-transition/dist/esm/TransitionGroupContext.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-react-transition/dist/esm/utils.js": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "node_modules/solid-start/entry-client/StartClient.tsx": [
@@ -178,16 +178,16 @@
   "node_modules/solid-start/server/ServerContext.tsx": [
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/assets/_...404_-a045a925.js"
+    "/assets/_...404_-741b9794.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/Project.css": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "src/components/Project.jsx": [
-    "/assets/Project-f3728f69.js",
+    "/assets/Project-1bddd624.js",
     "/assets/Project-6018c76e.css"
   ],
   "src/entry-client.jsx": [
@@ -197,27 +197,27 @@
   "src/root.jsx": [
   ],
   "src/routes/Art.jsx": [
-    "/assets/Art-f5b5d105.js"
+    "/assets/Art-605214c2.js"
   ],
   "src/routes/Courses.jsx": [
-    "/assets/Courses-29e850f0.js"
+    "/assets/Courses-29a42e49.js"
   ],
   "src/routes/Games.jsx": [
-    "/assets/Games-1641f1ed.js"
+    "/assets/Games-1bc560f1.js"
   ],
   "src/routes/Origami.jsx": [
-    "/assets/Origami-31dda9fd.js"
+    "/assets/Origami-0c8e8c12.js"
   ],
   "src/routes/Plants.jsx": [
-    "/assets/Plants-2fe97df9.js"
+    "/assets/Plants-00b14ebd.js"
   ],
   "src/routes/Puzzles.jsx": [
-    "/assets/Puzzles-6ace11ce.js"
+    "/assets/Puzzles-ae52fa1b.js"
   ],
   "src/routes/[...404].jsx": [
-    "/assets/_...404_-a045a925.js"
+    "/assets/_...404_-741b9794.js"
   ],
   "src/routes/index.jsx": [
-    "/assets/index-e17fbf14.js"
+    "/assets/index-777d131d.js"
   ]
 }
