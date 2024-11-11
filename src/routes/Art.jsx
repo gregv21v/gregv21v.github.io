@@ -4,7 +4,7 @@ export default function Art() {
     <main>
       <Title>Art</Title>
       <h1 class="page-title">Art</h1>
-      <p>Here is the art that I've created. Its not much, but its something.</p>
+      <p>Here is the art that I have created. Its not much, but it is something.</p>
 
       <img src="svgArt/ant.svg" alt="ant" width={200} height={200} />
       <img src="svgArt/better-ant.svg" alt="Better Ant" width={200} height={200} />
