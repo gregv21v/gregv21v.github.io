@@ -3,11 +3,11 @@
     "file": "assets/Project-6018c76e.css",
     "src": "Project.css"
   },
-  "_Project-a6749c4d.js": {
+  "_Project-262bd322.js": {
     "css": [
       "assets/Project-6018c76e.css"
     ],
-    "file": "assets/Project-a6749c4d.js",
+    "file": "assets/Project-262bd322.js",
     "imports": [
       "src/entry-client.jsx"
     ]
@@ -29,12 +29,12 @@
       "src/routes/Plants.jsx",
       "src/routes/Puzzles.jsx"
     ],
-    "file": "assets/entry-client-1ad8e197.js",
+    "file": "assets/entry-client-bdc0a32f.js",
     "isEntry": true,
     "src": "src/entry-client.jsx"
   },
   "src/routes/Art.jsx": {
-    "file": "assets/Art-a1345e96.js",
+    "file": "assets/Art-b3c20c77.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -42,7 +42,7 @@
     "src": "src/routes/Art.jsx"
   },
   "src/routes/Courses.jsx": {
-    "file": "assets/Courses-2df5a1eb.js",
+    "file": "assets/Courses-0a498a68.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -50,16 +50,16 @@
     "src": "src/routes/Courses.jsx"
   },
   "src/routes/Games.jsx": {
-    "file": "assets/Games-02473423.js",
+    "file": "assets/Games-c072f53a.js",
     "imports": [
       "src/entry-client.jsx",
-      "_Project-a6749c4d.js"
+      "_Project-262bd322.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/Games.jsx"
   },
   "src/routes/Plants.jsx": {
-    "file": "assets/Plants-f624d2d6.js",
+    "file": "assets/Plants-e02ef653.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -67,16 +67,16 @@
     "src": "src/routes/Plants.jsx"
   },
   "src/routes/Puzzles.jsx": {
-    "file": "assets/Puzzles-7872888d.js",
+    "file": "assets/Puzzles-c56434f6.js",
     "imports": [
       "src/entry-client.jsx",
-      "_Project-a6749c4d.js"
+      "_Project-262bd322.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/Puzzles.jsx"
   },
   "src/routes/[...404].jsx": {
-    "file": "assets/_...404_-20862966.js",
+    "file": "assets/_...404_-66a1264d.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -84,7 +84,7 @@
     "src": "src/routes/[...404].jsx"
   },
   "src/routes/index.jsx": {
-    "file": "assets/index-9579e202.js",
+    "file": "assets/index-24a9e8cc.js",
     "imports": [
       "src/entry-client.jsx"
     ],
