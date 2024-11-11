@@ -20,6 +20,16 @@ export default function Puzzles() {
             description="A tool for creating puzzles"
             imageName="puzzle-generator"
             repoLink="https://github.com/gregv21v/puzzle-generator2"
+            eventKey="0"
+          />
+
+          <Project
+            name="Original Puzzle Creation Tool"
+            description="A tool for creating puzzles. This tool is outdated, but its still useful for creating 
+              circular puzzles"
+            imageName="circle-puzzle"
+            repoLink="https://github.com/gregv21v/Puzzles"
+            eventKey="1"
           />
       </Accordion>
       
